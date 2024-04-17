@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "training-mock-data-demo",
+    "libraryId": "311975e3-e115-491f-86fd-3b93da59f8e0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "training-mock-data-demo",
+    "solutionShortDescription": "training-mock-data-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

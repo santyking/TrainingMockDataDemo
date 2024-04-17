@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "training-mock-data-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trainingMockDataWp/TrainingMockDataWpWebPart.js",
+          "manifest": "./src/webparts/trainingMockDataWp/TrainingMockDataWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TrainingMockDataWpWebPartStrings": "lib/webparts/trainingMockDataWp/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "training-mock-data-demo-client-side-solution",
+    "id": "311975e3-e115-491f-86fd-3b93da59f8e0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "training-mock-data-demo description"
+      },
+      "longDescription": {
+        "default": "training-mock-data-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "training-mock-data-demo Feature",
+        "description": "The feature that activates elements of the training-mock-data-demo solution.",
+        "id": "2da4e0f6-4cbe-481b-9125-f532db0a41b3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/training-mock-data-demo.sppkg"
+  }
+}
