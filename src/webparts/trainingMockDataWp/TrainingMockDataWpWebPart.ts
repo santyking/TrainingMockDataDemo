@@ -28,12 +28,12 @@ export default class TrainingMockDataWpWebPart extends BaseClientSideWebPart<ITr
     this._getListItems().then(listItems => {
       listItems.forEach(listItem => {
         listItemsStr += `
-        <li>${listItem.Title}</li>
+        <li class="${ styles.listItems }">${listItem.Title}</li>
         `;
       });
 
       this.domElement.innerHTML = `
-      <h1 class="${ styles.welcome}" >Hello World</h1>
+      <h1 class="${ styles.welcome}" >Akasa News</h1>
       ${listItemsStr}
       `;
     });
