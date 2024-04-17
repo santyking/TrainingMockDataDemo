@@ -7,7 +7,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import type { IReadonlyTheme } from '@microsoft/sp-component-base';
 // import { escape } from '@microsoft/sp-lodash-subset';
 
-import { Environment, EnvironmentType } from '@microsoft/sp-core-library';
+// import { Environment, EnvironmentType } from '@microsoft/sp-core-library';
 import { ISPListItem } from "./ISPListItem";
 import MockClient from "./MockClient";
 
@@ -46,11 +46,12 @@ export default class TrainingMockDataWpWebPart extends BaseClientSideWebPart<ITr
   }
 
   private _getListItems(): Promise<ISPListItem[]> {
-    if (Environment.type === EnvironmentType.Local) {
-      return this._getMockListData();
-    } else {
-      return Promise.reject(new Error("SharePoint method not implemented"));
-    }
+    // if (Environment.type === EnvironmentType.Local) {
+    //   return this._getMockListData();
+    // } else {
+    //   return this._getMockListData();
+    // }
+    return this._getMockListData();
   }
   protected onInit(): Promise<void> {
     return this._getEnvironmentMessage().then(message => {
